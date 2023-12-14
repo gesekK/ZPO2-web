@@ -1,0 +1,10 @@
+.charts{
+    justify-content: left;
+    margin-left: 20px;
+}
+.glucose-chart-container{
+    justify-content: left;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}

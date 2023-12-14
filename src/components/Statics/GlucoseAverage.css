@@ -1,0 +1,136 @@
+/* Style for the container div */
+div.glucose-averages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.averages-cv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: right;
+    margin-right: 100px;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+/* Styl dla etykiety wyboru użytkownika */
+#user-select-label {
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 80px;
+    font-weight: 600;
+    color: #464646; /* Kolor tekstu */
+}
+
+/* Styl dla wyboru użytkownika */
+.selec_user {
+    margin-left: 920px;
+    color: #EAEAEA;
+    width: 300px; /* Szerokość */
+    padding: 8px; /* Wewnętrzny odstęp */
+    border-radius: 10px; /* Zaokrąglenie krawędzi */
+    background-color: #EAEAEA; /* Kolor tła */
+}
+
+
+
+.card{
+    border-radius: 10px;
+}
+.glucose-chart-container{
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 20px;
+    gap: 40px;
+    margin-right: 40px;
+
+}
+.MuiTypography-root.values {
+    font-size: 30px; /* Rozmiar tekstu */
+    font-weight: 900; /* Pogrubienie tekstu */
+    color: white; /* Kolor tekstu */
+    margin: 10px 0; /* Margines od góry i od dołu */
+}
+
+.typography-h5{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.MuiTypography-root.custom-text-style {
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #afaeae;
+}
+.MuiTypography-root.custom-text-style_ch {
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.card-content{
+    width: 500px;
+    height: 300px;
+}
+
+
+.average-today,
+.average-week,
+.average-month{
+
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background: #464646;
+    border: 1px solid #464646;
+
+
+}
+
+.search{
+    justify-content: center;
+}
+
+/* Style for the form */
+.glucose-averages .form-control {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+/* Style for the cards */
+.glucose-averages .card {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for card content */
+.glucose-averages .card-content {
+    padding: 20px;
+}
+
+/* Style for typography */
+.glucose-averages .typography-h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* Style for no data message */
+.glucose-averages .no-data-message {
+    font-style: italic;
+    color: #888;
+}
